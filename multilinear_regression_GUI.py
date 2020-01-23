@@ -81,8 +81,8 @@ def get_salary():
     print(result)
     speak("predicted profit is")
     speak(result)
-    result = '\nPredicted profit: {}'.format(final_text)
-    tab1_display.insert(tk.END,result)
+    result1 = '\nPredicted profit: {}'.format(result)
+    tab1_display.insert(tk.END,result1)
 
 def clear_text():
         entry.delete('1.0',END)
